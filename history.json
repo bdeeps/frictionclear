@@ -1,0 +1,607 @@
+{
+  "title": "The history of friction",
+  "tagline": "From Egyptian workers pouring water under a 58-tonne statue to graphite flakes that slide with almost no friction at all: how people learned to measure, tame and explain the force that grips.",
+  "intro": "People used friction, and fought it, long before anyone could explain it. Leonardo da Vinci wrote down its rules around 1493, Amontons rediscovered them in 1699 and Coulomb tested them with care in 1785, but why they work stayed a puzzle until Bowden and Tabor showed in 1950 that surfaces touch only at the tips of tiny bumps. Meanwhile engineers learned to float machines on oil, and scientists argued for 170 years about why ice is slippery.",
+  "eras": [
+    {
+      "id": "craft",
+      "name": "Using it before explaining it",
+      "from": -1900,
+      "to": 1510,
+      "color": "#c49bff",
+      "summary": "Builders wet the sand under their sledges, and Leonardo da Vinci measures sliding blocks in his notebooks."
+    },
+    {
+      "id": "laws",
+      "name": "The laws of friction",
+      "from": 1699,
+      "to": 1794,
+      "color": "#8ef0ff",
+      "summary": "Amontons, Euler and Coulomb find that friction follows the load, not the area, and separate starting friction from sliding friction."
+    },
+    {
+      "id": "oil",
+      "name": "Oil, ice and new materials",
+      "from": 1850,
+      "to": 1939,
+      "color": "#ffb547",
+      "summary": "Engineers discover that a film of oil can carry a whole shaft, physicists argue about ice, and a lab accident produces Teflon."
+    },
+    {
+      "id": "atoms",
+      "name": "Down to the atoms",
+      "from": 1950,
+      "to": 2018,
+      "color": "#5ce1a9",
+      "summary": "Friction turns out to happen at tiny contact points. Tyres, brakes and spacecraft are designed around it, and at the atomic scale it can almost vanish."
+    }
+  ],
+  "events": [
+    {
+      "year": -1900,
+      "date": "c. 1900 BCE",
+      "era": "craft",
+      "art": "block",
+      "key": true,
+      "title": "Water under the sledge",
+      "who": "Workers of the nomarch Djehutihotep",
+      "where": "Deir el-Bersha, Egypt",
+      "country": "Egypt",
+      "text": "A painting in the tomb of Djehutihotep shows 172 workers hauling a colossal statue, nearly 6.8 m tall and around 58 tonnes, on a wooden sledge. A man stands on the front of the sledge pouring water onto the sand in its path. In 2014, physicists in Amsterdam showed why: the right amount of water stiffens the sand so the sledge doesn't plough into it, roughly halving the pull needed.",
+      "why": "It is one of the oldest pictures of someone deliberately changing friction.",
+      "box": "idea",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": 1493,
+      "date": "c. 1493",
+      "era": "craft",
+      "art": "quill",
+      "key": true,
+      "title": "Leonardo's sliding blocks",
+      "who": "Leonardo da Vinci",
+      "where": "Milan, Italy",
+      "country": "Italy",
+      "text": "In his notebooks Leonardo sketched blocks pulled across a table by weights hanging over a pulley. He noted that friction grows with the weight pressing down, does not depend on how much of the block touches, and is about a quarter of the weight for smooth surfaces.",
+      "why": "He found the basic laws of friction two centuries early, but his notes stayed unpublished.",
+      "box": "idea",
+      "sources": [
+        2,
+        3
+      ]
+    },
+    {
+      "year": 1699,
+      "date": "1699",
+      "era": "laws",
+      "art": "scales",
+      "key": true,
+      "title": "Amontons's laws",
+      "who": "Guillaume Amontons",
+      "where": "Paris, France",
+      "country": "France",
+      "text": "Amontons told the Paris Academy of Sciences that friction is proportional to the load and does not depend on the area of contact. Many academicians found the second rule hard to believe, and it had to be checked again.",
+      "why": "These are still the rules engineers use every day: F = μ × N, whatever the size of the block.",
+      "box": "limits",
+      "sources": [
+        4,
+        3
+      ]
+    },
+    {
+      "year": 1750,
+      "date": "1750",
+      "era": "laws",
+      "art": "word",
+      "title": "Starting is harder than sliding",
+      "who": "Leonhard Euler",
+      "where": "Berlin, Prussia",
+      "country": "Switzerland",
+      "text": "In a paper for the Berlin Academy, Euler reasoned that the friction to start an object moving is bigger than the friction while it slides. He showed how to measure friction with an object on a ramp, and worked out the angle at which a weight starts to slide.",
+      "why": "He separated static from kinetic friction and gave us the ramp test in chapter 1.",
+      "box": "idea",
+      "sources": [
+        5,
+        3
+      ]
+    },
+    {
+      "year": 1769,
+      "date": "1769",
+      "era": "laws",
+      "art": "boat",
+      "title": "Rope round a post",
+      "who": "Leonhard Euler",
+      "where": "Berlin, Prussia",
+      "country": "Switzerland",
+      "text": "Euler worked out why sailors can hold a straining ship with a few turns of rope round a post. The force the rope can hold grows exponentially with the angle of wrap: T = T₀ × e^(μθ). Johann Eytelwein published it again in 1808.",
+      "why": "The capstan equation explains bollards, knots and belt drives.",
+      "box": "need",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "year": 1785,
+      "date": "1785",
+      "era": "laws",
+      "art": "block",
+      "key": true,
+      "title": "Coulomb tests everything",
+      "who": "Charles-Augustin de Coulomb",
+      "where": "Rochefort and Paris, France",
+      "country": "France",
+      "text": "Working at the naval shipyard of Rochefort, Coulomb slid wood and metal over each other under different loads, speeds and times of contact. His prize-winning study of simple machines, published in 1785, confirmed Amontons's laws and found that sliding friction barely changes with speed.",
+      "why": "Dry friction with a constant μ is still called Coulomb friction.",
+      "box": "idea",
+      "sources": [
+        7,
+        3
+      ]
+    },
+    {
+      "year": 1794,
+      "date": "1794",
+      "era": "laws",
+      "art": "ball",
+      "title": "A design for ball bearings",
+      "who": "Philip Vaughan",
+      "where": "Carmarthen, Wales",
+      "country": "Wales",
+      "text": "Vaughan designed a carriage axle in which balls ran along a groove, so the parts rolled instead of rubbing. In 1869 a radial ball bearing designed by Jules Suriray helped James Moore win the Paris–Rouen bicycle race.",
+      "why": "Rolling instead of sliding cuts friction enormously: every fan and mixer motor depends on it.",
+      "box": "fight",
+      "sources": [
+        8
+      ]
+    },
+    {
+      "year": 1850,
+      "date": "7 June 1850",
+      "era": "oil",
+      "art": "ice",
+      "key": true,
+      "title": "A wet skin on ice",
+      "who": "Michael Faraday",
+      "where": "Royal Institution, London, England",
+      "country": "England",
+      "text": "Faraday noticed that two pieces of ice pressed together freeze into one, even in warm air. He suggested that ice is covered by a thin film of liquid even below 0 °C. James Thomson and his brother William, later Lord Kelvin, argued instead that pressure melts the ice.",
+      "why": "The argument over why ice is slippery lasted until X-ray studies in the 1980s and 1990s found Faraday's layer.",
+      "box": "limits",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "year": 1883,
+      "date": "1883",
+      "era": "oil",
+      "art": "waterdrop",
+      "title": "The oil that pushed back",
+      "who": "Beauchamp Tower",
+      "where": "London, England",
+      "country": "England",
+      "text": "Testing railway axle bearings for the Institution of Mechanical Engineers, Tower drilled a hole in a bearing and plugged it. The plug kept being forced out by the oil. He measured the pressure and found that the oil film itself was carrying the load.",
+      "why": "It revealed hydrodynamic lubrication: a shaft can float on oil.",
+      "box": "fight",
+      "sources": [
+        11
+      ]
+    },
+    {
+      "year": 1886,
+      "date": "1886",
+      "era": "oil",
+      "art": "molecule",
+      "title": "The theory of lubrication",
+      "who": "Osborne Reynolds",
+      "where": "Manchester, England",
+      "country": "England",
+      "text": "Reynolds explained Tower's result: a turning shaft drags oil into the narrowing gap of its bearing, building enough pressure to lift the shaft off the metal. His equation is still used to design engine bearings.",
+      "why": "It turned lubrication from guesswork into engineering.",
+      "box": "fight",
+      "sources": [
+        12
+      ]
+    },
+    {
+      "year": 1886,
+      "date": "1886",
+      "era": "oil",
+      "art": "snowflake",
+      "title": "Skates and pressure",
+      "who": "John Joly",
+      "where": "Dublin, Ireland",
+      "country": "Ireland",
+      "text": "Joly calculated the pressure under a skate blade at about 466 atmospheres, enough to lower ice's melting point by about 3.5 °C. For decades this pressure-melting idea was the textbook reason skates glide.",
+      "why": "It explained skating near 0 °C, but not why skating works at −20 °C.",
+      "box": "limits",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "year": 1902,
+      "date": "1902",
+      "era": "oil",
+      "art": "gear",
+      "title": "The Stribeck curve",
+      "who": "Richard Stribeck",
+      "where": "Berlin, Germany",
+      "country": "Germany",
+      "text": "Stribeck measured friction in bearings over a range of speeds and loads. Friction was high when starting, fell steeply as an oil film formed, then rose slowly. Adolf Martens had seen the same pattern in 1888.",
+      "why": "The curve shows why engines wear most at start-up.",
+      "box": "fight",
+      "sources": [
+        13
+      ]
+    },
+    {
+      "year": 1938,
+      "date": "6 April 1938",
+      "era": "oil",
+      "art": "molecule",
+      "title": "Teflon, by accident",
+      "who": "Roy J. Plunkett and Jack Rebok",
+      "where": "DuPont Jackson Laboratory, New Jersey, USA",
+      "country": "USA",
+      "text": "Looking for a new refrigerant gas, Plunkett opened a cylinder that should have been full, but nothing came out. Inside was a waxy white solid: the gas had joined up into polytetrafluoroethylene, PTFE. DuPont sold it as Teflon from 1945.",
+      "why": "PTFE has one of the lowest friction coefficients of any solid, about 0.04.",
+      "box": "idea",
+      "sources": [
+        14
+      ]
+    },
+    {
+      "year": 1939,
+      "date": "1939",
+      "era": "oil",
+      "art": "thermometer",
+      "title": "Friction melts its own path",
+      "who": "Frank Philip Bowden and T. P. Hughes",
+      "where": "Cambridge, England, and the Swiss Alps",
+      "country": "England",
+      "text": "Sliding objects over ice and snow at different speeds and temperatures, Bowden and Hughes argued that frictional heating melts a thin layer of water under a sliding ski or skate.",
+      "why": "It explained gliding on very cold ice, where pressure melting can't.",
+      "box": "limits",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "year": 1950,
+      "date": "1950",
+      "era": "atoms",
+      "art": "lens",
+      "key": true,
+      "title": "The real area of contact",
+      "who": "Frank Philip Bowden and David Tabor",
+      "where": "Cambridge, England",
+      "country": "England",
+      "text": "In their book The Friction and Lubrication of Solids, Bowden and Tabor showed that surfaces touch only at the tips of their bumps, over a tiny fraction of the area you see. The bumps squash until they can carry the load, so the real contact area grows with the load.",
+      "why": "It finally explained Amontons's laws.",
+      "box": "idea",
+      "sources": [
+        15,
+        3
+      ]
+    },
+    {
+      "year": 1963,
+      "date": "November 1963",
+      "era": "atoms",
+      "art": "tyre",
+      "title": "Aquaplaning measured",
+      "who": "Walter B. Horne and Robert C. Dreher",
+      "where": "NASA Langley Research Center, Virginia, USA",
+      "country": "USA",
+      "text": "Testing aircraft tyres on flooded runways, NASA engineers found that above a certain speed a tyre lifts right off the ground on a wedge of water. That speed depends on the tyre pressure: about 9 × √(pressure in psi) knots.",
+      "why": "Their rule is still used for aircraft, and helps explain why worn car tyres aquaplane.",
+      "box": "road",
+      "sources": [
+        16
+      ]
+    },
+    {
+      "year": 1978,
+      "date": "1978",
+      "era": "atoms",
+      "art": "car",
+      "key": true,
+      "title": "Anti-lock brakes in showrooms",
+      "who": "Bosch and Mercedes-Benz",
+      "where": "Stuttgart, Germany",
+      "country": "Germany",
+      "text": "Bosch's electronic ABS became an option on the Mercedes-Benz S-Class. Sensors watch each wheel, and valves release the brake pressure many times a second whenever a wheel starts to lock, so the tyres keep rolling with static grip.",
+      "why": "Cars could now brake hard and still steer.",
+      "box": "road",
+      "sources": [
+        18
+      ]
+    },
+    {
+      "year": 1991,
+      "date": "April 1991",
+      "era": "atoms",
+      "art": "rocket",
+      "title": "An antenna jammed by friction",
+      "who": "NASA Jet Propulsion Laboratory",
+      "where": "On the way to Jupiter",
+      "country": "USA",
+      "text": "The Galileo spacecraft tried to open its 4.8 m umbrella-like antenna, but two or three of its 18 ribs stayed stuck. Investigators blamed friction at metal pins whose dry lubricant had been worn away during testing and travel.",
+      "why": "In space, a little too much friction can cripple a mission.",
+      "box": "limits",
+      "sources": [
+        19
+      ]
+    },
+    {
+      "year": 2004,
+      "date": "2004",
+      "era": "atoms",
+      "art": "atomspin",
+      "key": true,
+      "title": "Superlubricity seen",
+      "who": "Martin Dienwiebel, Joost Frenken and colleagues",
+      "where": "Leiden, Netherlands",
+      "country": "Netherlands",
+      "text": "With a very sensitive friction microscope, the Leiden team dragged a tiny graphite flake over graphite and turned it. Friction was high only when the flake's atoms lined up with those below, every 60°. In between it almost disappeared.",
+      "why": "It proved that friction can nearly vanish when atomic bumps can't lock together.",
+      "box": "limits",
+      "sources": [
+        20,
+        21
+      ]
+    },
+    {
+      "year": 2018,
+      "date": "June 2018",
+      "era": "atoms",
+      "art": "snowflake",
+      "title": "Why ice is slippery, measured",
+      "who": "Bart Weber, Daniel Bonn, Mischa Bonn and colleagues",
+      "where": "Amsterdam, Netherlands, and Mainz, Germany",
+      "country": "Netherlands",
+      "text": "Measuring steel sliding on ice from −100 °C to 0 °C, and probing the surface with lasers, the team found that the top layer of ice molecules is only loosely bound and moves almost freely. Friction was lowest at about −7 °C, the temperature used on speed-skating rinks.",
+      "why": "It showed that ice is slippery mainly because of its own loose surface, not pressure.",
+      "box": "limits",
+      "sources": [
+        22,
+        23
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "Oldest picture of wetting the ground under a sledge",
+      "value": "c. 1900 BCE",
+      "who": "Tomb of Djehutihotep, Egypt"
+    },
+    {
+      "label": "Laws of friction written down",
+      "value": "c. 1493",
+      "who": "Leonardo da Vinci, Italy"
+    },
+    {
+      "label": "Laws of friction published",
+      "value": "1699",
+      "who": "Guillaume Amontons, France"
+    },
+    {
+      "label": "Capstan equation",
+      "value": "1769",
+      "who": "Leonhard Euler"
+    },
+    {
+      "label": "Ball bearing design",
+      "value": "1794",
+      "who": "Philip Vaughan, Wales"
+    },
+    {
+      "label": "Oil film shown to carry a load",
+      "value": "1883",
+      "who": "Beauchamp Tower, England"
+    },
+    {
+      "label": "Electronic ABS in a Mercedes-Benz",
+      "value": "1978",
+      "who": "Bosch and Mercedes-Benz, Germany"
+    },
+    {
+      "label": "Superlubricity measured",
+      "value": "2004",
+      "who": "Dienwiebel and colleagues, Netherlands"
+    }
+  ],
+  "people": [
+    {
+      "name": "Leonardo da Vinci",
+      "life": "1452 – 1519",
+      "role": "Artist and engineer",
+      "from": "Italy",
+      "note": "Measured sliding blocks and wrote down the laws of friction, but never published them."
+    },
+    {
+      "name": "Guillaume Amontons",
+      "life": "1663 – 1705",
+      "role": "Physicist and instrument maker",
+      "from": "France",
+      "note": "Showed the Paris Academy that friction follows the load, not the area."
+    },
+    {
+      "name": "Leonhard Euler",
+      "life": "1707 – 1783",
+      "role": "Mathematician",
+      "from": "Switzerland",
+      "note": "Split friction into static and kinetic and worked out the capstan equation."
+    },
+    {
+      "name": "Charles-Augustin de Coulomb",
+      "life": "1736 – 1806",
+      "role": "Military engineer and physicist",
+      "from": "France",
+      "note": "Tested friction with great care at a naval shipyard; dry friction is still called Coulomb friction."
+    },
+    {
+      "name": "Osborne Reynolds",
+      "life": "1842 – 1912",
+      "role": "Engineer",
+      "from": "Ireland and England",
+      "note": "Explained how a shaft floats on oil, the basis of every engine bearing."
+    },
+    {
+      "name": "Frank Philip Bowden",
+      "life": "1903 – 1968",
+      "role": "Physicist",
+      "from": "Australia and England",
+      "note": "Studied sliding on ice and, with Tabor, found the tiny real area of contact."
+    },
+    {
+      "name": "David Tabor",
+      "life": "1913 – 2005",
+      "role": "Physicist",
+      "from": "England",
+      "note": "Co-author of The Friction and Lubrication of Solids, which explained why Amontons's laws work."
+    },
+    {
+      "name": "Roy J. Plunkett",
+      "life": "1910 – 1994",
+      "role": "Chemist",
+      "from": "USA",
+      "note": "Discovered PTFE, sold as Teflon, by accident in 1938."
+    }
+  ],
+  "series": [],
+  "facts": [
+    "The Djehutihotep painting shows 172 workers moving a statue of about 58 tonnes, with one man pouring water in front of the sledge.",
+    "Two blocks of polished steel can touch over less than a millionth of the area they seem to share.",
+    "A skate blade lowers ice's melting point by only about 1–2 °C, yet people skate happily at −20 °C.",
+    "Three turns of rope round a steel bollard can multiply your grip more than a hundred times.",
+    "PTFE (Teflon) is one of the few solids whose starting and sliding friction are the same, about 0.04, so it never jerks."
+  ],
+  "sources": [
+    {
+      "title": "Djehutihotep",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Djehutihotep"
+    },
+    {
+      "title": "Ancient Egyptians transported pyramid stones over wet sand",
+      "publisher": "Phys.org / University of Amsterdam",
+      "url": "https://phys.org/news/2014-04-ancient-egyptians-pyramid-stones-sand.html"
+    },
+    {
+      "title": "Leonardo da Vinci: the first systematic study of friction",
+      "publisher": "University of Cambridge, Department of Engineering",
+      "url": "https://www.eng.cam.ac.uk/news/leonardo-da-vinci-first-systematic-study-friction"
+    },
+    {
+      "title": "Friction: history",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Friction"
+    },
+    {
+      "title": "Guillaume Amontons",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Guillaume_Amontons"
+    },
+    {
+      "title": "Sur le frottement des corps solides (E143)",
+      "publisher": "The Euler Archive, University of the Pacific",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/143/"
+    },
+    {
+      "title": "Capstan equation",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Capstan_equation"
+    },
+    {
+      "title": "Charles-Augustin de Coulomb",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Charles-Augustin_de_Coulomb"
+    },
+    {
+      "title": "Ball bearing: history",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ball_bearing"
+    },
+    {
+      "title": "Arthur Morin",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arthur_Morin"
+    },
+    {
+      "title": "Why is ice slippery? (R. Rosenberg, Physics Today, December 2005)",
+      "publisher": "American Institute of Physics",
+      "url": "https://physicstoday.aip.org/features/why-is-ice-slippery"
+    },
+    {
+      "title": "Beauchamp Tower",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Beauchamp_Tower"
+    },
+    {
+      "title": "On the theory of lubrication (O. Reynolds, 1886)",
+      "publisher": "Philosophical Transactions of the Royal Society",
+      "url": "https://royalsocietypublishing.org/doi/10.1098/rstl.1886.0005"
+    },
+    {
+      "title": "The history of the Stribeck curve and ball bearing steels: the role of Adolf Martens",
+      "publisher": "Wear (Elsevier), 2010",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0043164810000669"
+    },
+    {
+      "title": "Roy J. Plunkett",
+      "publisher": "Science History Institute",
+      "url": "https://www.sciencehistory.org/education/scientific-biographies/roy-j-plunkett/"
+    },
+    {
+      "title": "David Tabor",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/David_Tabor"
+    },
+    {
+      "title": "Phenomena of pneumatic tire hydroplaning (NASA TN D-2056)",
+      "publisher": "NASA Technical Reports Server",
+      "url": "https://ntrs.nasa.gov/api/citations/19640000612/downloads/19640000612.pdf"
+    },
+    {
+      "title": "Tribology",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tribology"
+    },
+    {
+      "title": "Anti-lock braking system: history",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anti-lock_braking_system"
+    },
+    {
+      "title": "Galileo High Gain Antenna (HGA) failure (1991)",
+      "publisher": "NASA Lessons Learned",
+      "url": "https://llis.nasa.gov/lesson/492"
+    },
+    {
+      "title": "Superlubricity of graphite (Dienwiebel et al., Phys. Rev. Lett. 92, 126101, 2004)",
+      "publisher": "TU Delft Research Portal",
+      "url": "https://research.tudelft.nl/en/publications/superlubricity-of-graphite/"
+    },
+    {
+      "title": "Superlubricity",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Superlubricity"
+    },
+    {
+      "title": "Molecular insight into the slipperiness of ice (Weber et al., 2018)",
+      "publisher": "The Journal of Physical Chemistry Letters",
+      "url": "https://pubs.acs.org/doi/10.1021/acs.jpclett.8b01188"
+    },
+    {
+      "title": "The slipperiness of ice explained",
+      "publisher": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2018/05/180509121544.htm"
+    }
+  ]
+}

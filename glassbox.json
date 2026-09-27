@@ -1,0 +1,172 @@
+{
+  "slug": "frictionclear",
+  "kind": "principle",
+  "box": 20,
+  "date": "2026-09-27",
+  "title": "Friction",
+  "question": "What is friction?",
+  "principle": {
+    "type": "concept",
+    "name": "Friction",
+    "formula": "F = μ × N",
+    "formulaNote": "friction = coefficient of friction × normal force. Static friction matches your push up to μs × N; once sliding, it drops to μk × N. μ has no unit and depends only on the two surfaces",
+    "idea": "Friction is the force that resists two surfaces sliding over each other. It grows with how hard they are pressed together (F = μ × N), hardly depends on how big the contact looks, and is what lets you walk, drive and grip anything at all.",
+    "discovered": "c. 1493 · Leonardo da Vinci's notebooks; 1699 · Guillaume Amontons; 1785 · Charles-Augustin de Coulomb",
+    "art": "block",
+    "appliesTo": [
+      "carclear",
+      "cycleclear",
+      "motorcycleclear",
+      "penclear",
+      "fanclear",
+      "mixerclear"
+    ],
+    "examples": [
+      {
+        "title": "Braking distance",
+        "text": "A car's tyres grip a dry road with μ ≈ 0.8, so from 80 km/h it can stop in about 32 m. On ice, with μ ≈ 0.1, the same stop takes about 250 m.",
+        "box": "carclear"
+      },
+      {
+        "title": "Anti-lock brakes",
+        "text": "A skidding tyre grips about a fifth less than a rolling one and can't steer. ABS releases the brakes up to 15 times a second to keep each wheel just short of locking.",
+        "box": "carclear"
+      },
+      {
+        "title": "Engine oil",
+        "text": "Oil dragged into the crankshaft bearings lifts the shaft on a film a few thousandths of a millimetre thick, cutting friction from about 0.1 to well under 0.01.",
+        "box": "carclear"
+      },
+      {
+        "title": "Rim brakes",
+        "text": "Squeeze the lever with 60 N and each pad presses on the rim with about 240 N. Friction at the rim becomes about 210 N of grip at the road, and wet rims give less than half.",
+        "box": "cycleclear"
+      },
+      {
+        "title": "Rolling beats sliding",
+        "text": "Bicycle tyres roll with a resistance of about 0.004 × the weight: just 3 N for a rider and bike. Dragging the same load would take over 600 N.",
+        "box": "cycleclear"
+      },
+      {
+        "title": "Leaning on the front brake",
+        "text": "Braking throws a rider's weight onto the front tyre, pressing it harder into the road. More normal force means more grip, so the front brake does most of the stopping.",
+        "box": "motorcycleclear"
+      },
+      {
+        "title": "The ballpoint's ball",
+        "text": "Friction from the paper turns the 0.7 mm ball about 4.5 times per centimetre, wiping ink onto the page. On glass it skids and nothing comes out.",
+        "box": "penclear"
+      },
+      {
+        "title": "Fan bearings",
+        "text": "A ceiling fan's ball bearings have a friction coefficient of about 0.0015, which is why the blades keep turning long after you switch it off.",
+        "box": "fanclear"
+      },
+      {
+        "title": "A mixer at 18,000 rpm",
+        "text": "Ball bearings lose about a quarter of a watt in a mixer grinder's motor. A dry bush in their place would turn over 20 W into heat in a spot the size of a pea.",
+        "box": "mixerclear"
+      },
+      {
+        "title": "Rope round a post",
+        "text": "Each turn of rope round a steel bollard multiplies its grip by about 4.8. With three turns, a 100 N pull holds more than a tonne."
+      }
+    ]
+  },
+  "hook": "Friction is the force that holds before it slips. Pull a block with a spring scale and watch the grip peak then drop, stop a car on dry roads and ice, float a crankshaft on oil, hold a boat with one hand and three turns of rope, and bust the myth that pressure makes ice slippery.",
+  "thumbText": "FRICTION",
+  "field": "physics",
+  "minutes": 12,
+  "tags": [
+    "friction",
+    "coefficient of friction",
+    "static friction",
+    "kinetic friction",
+    "normal force",
+    "braking distance",
+    "ABS",
+    "aquaplaning",
+    "rolling resistance",
+    "bearings",
+    "lubrication",
+    "stick-slip",
+    "superlubricity",
+    "physics",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Grip, then slip",
+      "text": "Friction resists sliding. Static friction matches your pull up to a limit, μs × N; past it the surface lets go and sliding friction, μk × N, is usually smaller. μ has no unit. Tilt a ramp until a block slides and tan θ = μs. Surfaces really touch only at the tips of tiny bumps."
+    },
+    {
+      "title": "Grip on the road",
+      "text": "Tyres drive, steer and stop through static friction: μ about 0.8 dry, 0.5 wet, 0.1 on ice. Braking distance is v² ÷ 2μg, so ice means eight times as far. ABS keeps wheels just short of locking. Worn tread can't clear water and the tyre aquaplanes."
+    },
+    {
+      "title": "Friction we fight",
+      "text": "Rolling needs about 1% of the weight for a car, a hundredth of dragging it. Ball bearings run at μ ≈ 0.0015. An oil film floats a crankshaft off the metal, as the Stribeck curve shows. Whatever friction remains becomes heat, enough to make brake discs glow."
+    },
+    {
+      "title": "Friction we need",
+      "text": "Each step pushes the ground back so the ground pushes you forward, needing μ ≈ 0.18. A pen's ball rolls only because paper grips it. Rope round a post grips exponentially, T₀ e^(μθ). Rosin makes a violin bow stick and slip hundreds of times a second."
+    },
+    {
+      "title": "Myths and limits",
+      "text": "Friction doesn't depend on contact area. Ultra-smooth clean metals stick and can even cold-weld. Pressure lowers ice's melting point by only about 1.5 °C under a skate: ice is slippery because of its wet surface layer and frictional heating. Twisted graphite is superlubric, and air drag grows with speed squared."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Friction",
+      "def": "The force between touching surfaces that resists them sliding over each other."
+    },
+    {
+      "term": "Normal force",
+      "def": "How hard two surfaces are pressed together, at right angles to them. On a flat table it equals the weight."
+    },
+    {
+      "term": "Coefficient of friction (μ)",
+      "def": "Friction divided by normal force. It has no unit and depends on the two surfaces."
+    },
+    {
+      "term": "Static and kinetic friction",
+      "def": "Static friction stops sliding from starting, up to μs × N; kinetic friction acts once sliding, about μk × N."
+    },
+    {
+      "term": "Real contact area",
+      "def": "The tiny fraction of a surface that actually touches, at the tips of its bumps. It grows with the load."
+    },
+    {
+      "term": "Rolling resistance",
+      "def": "The small drag on a rolling wheel, Crr × weight: about 1% for a car tyre."
+    },
+    {
+      "term": "Lubrication",
+      "def": "A film of oil or grease that keeps surfaces apart and cuts friction."
+    },
+    {
+      "term": "Stick–slip",
+      "def": "Jerky motion where surfaces stick, build up force, slip and stick again: violins, squeaks and earthquakes."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "frictionclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}
